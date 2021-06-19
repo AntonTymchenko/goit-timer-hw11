@@ -1,0 +1,37 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.stopwatch {
+    width: 70%;
+    min-width: 350px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: lightblue;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 100px;
+    
+}
+
+.btn {
+    width: 25%;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.laps {
+    list-style: none;
+    text-align: center;
+    font-size: 80px;
+    border: 2px solid gray;
+    width: 50%;
+    margin: 0 auto;
+}
